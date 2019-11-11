@@ -25,6 +25,7 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 const App: () => React$Node = () => {
+  console.log('Im a console statement')
   return (
     <>
       <StatusBar barStyle="dark-content" />
@@ -40,30 +41,31 @@ const App: () => React$Node = () => {
           )}
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
-              <Text>Welcome to c308 WebFrame</Text>
-              <Text style={styles.sectionTitle}>Step One</Text>
-              <Text style={styles.sectionDescription}>
-                Edit <Text style={styles.highlight}>App.js</Text> to change this
-                screen and then come back to see your edits.
-              </Text>
+              <Text style={styles.sectionTitle}>Things to do in RP</Text>
+              <Text style={styles.sectionDescription}> </Text>
+              <Text> You can visit the playground just right beside the school. It's the largest one in Singapore. It contains rides such as the roller rides, as well as, the swing from the horizon. </Text>
             </View>
             <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>See Your Changes</Text>
+              <Text style={styles.sectionTitle}>What and Where to eat in RP</Text>
               <Text style={styles.sectionDescription}>
                 <ReloadInstructions />
               </Text>
             </View>
+            <Text>RP comprises of North, South and Lawn cafeteria. Only the canteen at Lawn is fully air-conditioned. The other 2, however, has their own unique stores that other canteen doesn't offer.</Text>
+            </View>
             <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Debug</Text>
+              <Text style={styles.sectionTitle}> Life in RP</Text>
               <Text style={styles.sectionDescription}>
                 <DebugInstructions />
               </Text>
+              <Text>All the students in RP are graded in accordance with their daily performance in school. They are judge by grades, attendance, behaviour etc.</Text>
             </View>
             <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Learn More</Text>
+              <Text style={styles.sectionTitle}>Why is RP good</Text>
               <Text style={styles.sectionDescription}>
                 Read the docs to discover what to do next:
               </Text>
+              <Text>Come to RP to experience a fully air-conditioned facility</Text>
             </View>
             <LearnMoreLinks />
           </View>
